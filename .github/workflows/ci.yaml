@@ -25,4 +25,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ github.DOCKERHUB_USERNAME }}/test-app:${{env.GITHUB_ENV}}
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/test-app:${{env.GITHUB_ENV}}
